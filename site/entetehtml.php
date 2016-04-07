@@ -9,28 +9,17 @@
 		<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 		<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
-		   <!-- Bootstrap Core CSS -->
+		   
+		    <!-- Bootstrap Core CSS -->
 			<link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
 			<link href="bootstrap-3.3.5-dist/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">			
-				<!-----Data tables--------->
-					<link rel="stylesheet" href="css/jquery.dataTables.min.css" type="text/css" media="screen">
-					<link rel="stylesheet" href="css/datatablesCSS.css" type="text/css" media="screen">
-		<script src="js/jquery-1.6.3.min.js" type="text/javascript"></script>
-		<script src="js/cufon-yui.js" type="text/javascript"></script>
-		<script src="js/cufon-replace.js" type="text/javascript"></script>
-		<script src="js/NewsGoth_BT_400.font.js" type="text/javascript"></script>
-		<script src="js/FF-cash.js" type="text/javascript"></script>
-		<script src="js/script.js" type="text/javascript"></script>
-		<script src="js/jquery.equalheights.js" type="text/javascript"></script>
-		<script src="js/easyTooltip.js" type="text/javascript"></script>
+			<!-----Data tables--------->
+			<link rel="stylesheet" href="css/jquery.dataTables.min.css" type="text/css" media="screen">
+			<link rel="stylesheet" href="css/datatablesCSS.css" type="text/css" media="screen">
 		
-						<!-- jQuery -->
-		<!---		<script src="bootstrap-3.3.5-dist/js/jquery.js"></script>
+			<script src="js/jquery-1.6.3.min.js" type="text/javascript"></script>
 
-				<!-- Bootstrap Core JavaScript -->
-		<!--	<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>  -->
-				
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>

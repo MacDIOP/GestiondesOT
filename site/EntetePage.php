@@ -72,8 +72,8 @@ if( empty($_SESSION['Matricule']) )
 
 							</ul> --->
 						</li>
-						<li><a href="#">Nos Agents</a> </li>
-						<li><a href="#">Nos Centres</a> </li>
+						<li role="presentation" class="disabled"><a href="#">Nos Agents</a> </li>
+						<li role="presentation" class="disabled"><a href="#">Nos Centres</a> </li>
 						<li><a href="Modification.php" style= "color : #D9534F;" class="pull-right">Editer Un Numero</a> </li>
 					</ul>
 				</div>

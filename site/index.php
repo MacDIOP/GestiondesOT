@@ -26,29 +26,28 @@
 ?>		
 <!-----==================Le corps de la page========================---------->		
 				<div class="row MargeSup">
-					<h3> Bienvenue a votre nouvelle Application pour la Gestion et le suivi des Ordres de Travail de TADEX	</h3>		
-						<div class="col-lg-4 col-md-4 col-lg-offset-2 col-md-offset-2">
+					<h3 style="text-align : center;"> GESTION DES ORDRE DE TRAVAIL	</h3>		
+						<div class="col-lg-4 col-lg-offset-4">
 							<div class="login-panel panel panel-default">
 								<div class="panel-heading">
 									<h3 class="panel-title">Connectez Vous</h3>
 								</div>
 								<div class="panel-body monbox">
-									<form role="form" id="formconnexion" method ="post" action ="index.php">
+									<form role="form" id="formconnexion" data-toggle="validator" method ="post" action ="index.php">
 										<fieldset>
 											<div class="form-group">
-												<input class="form-control" type="text"  name="iduser" placeholder="Matricule" autofocus required ="true"/>
+												<input class="form-control" type="text"  name="iduser" data-error="Identifiant Invalide" placeholder="Identifiant de connnexion" autofocus required/>
+												<span class="help-block with-errors"></span>
 											</div>
 											<div class="form-group">
-												<input class="form-control" type="password"  name="passwd" placeholder="Mot de passe" required = "true"/>
-											</div>
-											<div class="checkbox CheckboxMarge">
-												<label>
-													<input name="remember" type="checkbox" value="Remember Me">Se souvenir de moi
-												</label>
-												<span class="pull-right"> <a href="indexe.php"> Nouveau Profil </a> </span>
+												<input class="form-control" type="password" name="passwd" placeholder="Mot de passe" data-error="Mot de passe invalide" required />
+											    <span class="help-block with-errors"></span>
 											</div>
 											<!-- Change this to a button or input when using this as a form -->
 											<button href="#" onClick="document.getElementById('formconnexion').submit()" class="btn btn-lg btn-info btn-block">Valider</button>
+											<div class="checkbox">
+												<button href="Inscriptionpilote.php" class="btn btn-success btn-block">  Nouveau Profil </span>
+											</div>
 										</fieldset>
 									</form>
 								</div>
